@@ -5,7 +5,7 @@ RUN apk add --no-cache git py-twisted
 WORKDIR /opt
 
 RUN git clone https://github.com/babim/eth-proxy && \
-    apk del git build-deps
+    apk del git
 
 WORKDIR /opt/eth-proxy
 
